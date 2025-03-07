@@ -3,6 +3,7 @@ Module 20
 Code in stater_code folder within credit_risk_classification.ipynb
 Analysis
 The purpose of this analysis is to test our models that try to assess which factors will lead to a high risk loan.
+             
               precision    recall  f1-score   support
 
            0       1.00      0.99      1.00     18765
