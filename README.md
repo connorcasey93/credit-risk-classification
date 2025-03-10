@@ -10,9 +10,9 @@ The purpose of this analysis is to test our models that try to assess which fact
 
            0       1.00      0.99      1.00     18765
            1       0.84      0.94      0.89       619
-     accuracy                           0.99     19384
-     macro avg       0.92      0.97      0.94     19384
-      weighted avg       0.99      0.99      0.99     19384
+   accuracy                            0.99     19384
+   macro avg       0.92      0.97      0.94     19384
+   weighted avg    0.99      0.99      0.99     19384
 
 
  This analysis is attemtpting to figure out whether or not we can predict what will be a high risk versus a low risk loan. For 0 which represents non high risk loans high precison and recall are achieved as shown by the extremely high f score. Precsion means the model is able to not mislabel a negative as a postive. In this case whether the loan is low risk. Recall means the abilty to locate all the postive instances. The combination of no mislabels indicated by the precision being 1 and high recall being .99 indciates this is a great model for identifying low risk loans. Therefore for low risk loans the company absolutely should use this model.
